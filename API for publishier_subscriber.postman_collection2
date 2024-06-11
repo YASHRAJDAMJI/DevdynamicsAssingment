@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "423bdde7-ea20-4f66-a894-5f4d3ad76dbf",
+		"name": "API for publishier_subscriber",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "36249673",
+		"_collection_link": "https://www.postman.com/aerospace-geoscientist-54538886/workspace/my-workspace/collection/36249673-423bdde7-ea20-4f66-a894-5f4d3ad76dbf?action=share&source=collection_link&creator=36249673"
+	},
+	"item": [
+		{
+			"name": "Notify",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"topicId\": \"DBMS\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://yashraj22.pythonanywhere.com/notify"
+			},
+			"response": []
+		},
+		{
+			"name": "Unsubscribe",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"topicId\": \"DBMS\",\r\n  \"subscriberId\": \"YA6743\"//enter the User id created by createSubscriberid or you can get it by passing the subscriber namr to get subscriber id by name Api\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://yashraj22.pythonanywhere.com/unsubscribe"
+			},
+			"response": []
+		},
+		{
+			"name": "CreateSubscriberId",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Yashraj\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://yashraj22.pythonanywhere.com/createsubscriberid"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Subscriber ID by name",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://yashraj22.pythonanywhere.com/getsubscriberid?name=Yashraj2",
+					"protocol": "https",
+					"host": [
+						"yashraj22",
+						"pythonanywhere",
+						"com"
+					],
+					"path": [
+						"getsubscriberid"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Yashraj2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Subscribe",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"topicId\": \"DBMS\",\r\n  \"subscriberId\": \"YA6743\"//enter the User id created by createSubscriberid or you can get it by passing the subscriber namr to get subscriber id by name Api\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://yashraj22.pythonanywhere.com/subscribe"
+			},
+			"response": []
+		}
+	]
+}
