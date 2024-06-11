@@ -60,5 +60,4 @@ The recommended flow for using the APIs is as follows:
 5. **Subscribe to a non-existing topic:** Users cannot subscribe to topics that are not available/created.
 6. **Notify with no subscribers:** The notify API handles the case where no subscribers have subscribed to the topic.
 
-### Sample
-Here is an example usage of the APIs.
+
