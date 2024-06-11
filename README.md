@@ -3,7 +3,7 @@ Worked on the **1st problem statement (Publisher Subscriber Notification System)
 
 ### Links
 - **Postman Workspace:** [Link to Postman Workspace](https://www.postman.com/aerospace-geoscientist-54538886/workspace/my-workspace/collection/36249673-423bdde7-ea20-4f66-a894-5f4d3ad76dbf?action=share&creator=36249673)
-- **Import collection by this link:** [Import Collection](https://api.postman.com/collections/36249673-423bdde7-ea20-4f66-a894-5f4d3ad76dbf?access_key=PMAT-01J04A7QV1JKCBXAB7ER2RF24Y)
+
 
 
 ### API Endpoints
